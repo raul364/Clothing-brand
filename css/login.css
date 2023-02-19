@@ -1,0 +1,109 @@
+body {
+  font-family: "Assistant", sans-serif;
+  background-color: #121212;
+  color: #ddd;
+}
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+#submit-btn {
+  margin-top: 10px;
+  margin-left: 30%;
+}
+
+#pwd-policy {
+  color: grey;
+  opacity: 50%;
+}
+
+#submit-btn,
+.no-accunt {
+  font-size: 22px;
+  border: none;
+  border-radius: 8px;
+  background-color: #121212;
+  transition-duration: 0.4s;
+  color: #ddd;
+}
+
+#submit-btn:hover,
+.no-accunt:hover {
+  background-color: #222222;
+}
+
+.no-accunt {
+  margin-left: 20px;
+  font-size: 18px;
+  color: red;
+}
+
+#emailError {
+  color: red;
+  margin-left: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.topnav a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+li {
+  list-style: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius: 15px;
+  transition: all 0.2s;
+}
+
+.topnav .icon {
+  display: none;
+}
+.logo {
+  cursor: pointer;
+}
+.left-nav {
+  margin-top: 0px;
+  justify-content: left;
+  display: flex;
+  padding-left: 0px;
+  align-items: center;
+  margin-bottom: 0px;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: transparent;
+  outline: none;
+  color: white;
+}
+.accQuestion {
+  color: grey;
+}
